@@ -1,0 +1,79 @@
+<form>
+  <h2>Información de Contacto</h2>
+  <label for="nombre">Nombre Completo:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="email">Correo Electrónico:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="telefono">Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono">
+
+  <h2>Detalles del Caso</h2>
+  <label>Tipo de Derecho:</label>
+  <div id="tipo-derecho-radios">
+    <label>
+      <input type="radio" name="tipo-derecho" value="civil" onchange="mostrarExplicacion(this.value)"> Derecho Civil
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="penal" onchange="mostrarExplicacion(this.value)"> Derecho Penal
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="laboral" onchange="mostrarExplicacion(this.value)"> Derecho Laboral
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="familiar" onchange="mostrarExplicacion(this.value)"> Derecho
+      Familiar
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="constitucional" onchange="mostrarExplicacion(this.value)"> Derecho
+      Constitucional
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="administrativo" onchange="mostrarExplicacion(this.value)"> Derecho
+      Administrativo
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="otro" onchange="mostrarExplicacion(this.value)"> Otro
+    </label>
+  </div>
+
+  <div id="explicacion"></div>
+
+  <label for="caso">Describe tu caso:</label>
+  <textarea id="caso" name="caso" rows="5" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<script>
+  function mostrarExplicacion(valor) {
+    const explicacionDiv = document.getElementById("explicacion");
+
+    switch (valor) {
+      case "civil":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Civil:</strong> Regula las relaciones entre personas físicas o jurídicas en asuntos no penales. <br><em>Ejemplo: Disputa sobre un contrato de compraventa.</em></p>";
+        break;
+      case "penal":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Penal:</strong> Regula los delitos y las penas a aplicar. <br><em>Ejemplo: Acusación por robo.</em></p>";
+        break;
+      case "laboral":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Laboral:</strong> Regula las relaciones entre empleadores y empleados. <br><em>Ejemplo: Disputa sobre el despido injustificado de un trabajador.</em></p>";
+        break;
+      case "familiar":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Familiar:</strong> Regula las relaciones familiares y los derechos y obligaciones derivados de estas. <br><em>Ejemplo: Disputa sobre la custodia de un menor.</em></p>";
+        break;
+      case "constitucional":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Constitucional:</strong> Regula la organización y el funcionamiento del Estado, así como los derechos y garantías fundamentales de los ciudadanos. <br><em>Ejemplo: Impugnación de una ley por considerarla inconstitucional.</em></p>";
+        break;
+      case "administrativo":
+        explicacionDiv.innerHTML = "<p><strong>Derecho Administrativo:</strong> Regula la organización, funcionamiento y control de la Administración Pública. <br><em>Ejemplo: Recurso contra una sanción impuesta por una autoridad administrativa.</em></p>";
+        break;
+      case "otro":
+        explicacionDiv.innerHTML = "<p><strong>Otro:</strong> Si tu caso no se encuadra en ninguna de las categorías anteriores, por favor, selecciona esta opción.</p>";
+        break;
+      default:
+        explicacionDiv.innerHTML = "";
+    }
+  }
+</script>
