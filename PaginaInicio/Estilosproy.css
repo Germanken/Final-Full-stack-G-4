@@ -169,9 +169,23 @@ main {
     font-size: 25px;
     color: #cfb344;
     text-align: justify;
+    padding: 10%;
 
 }
 
 #sec2 div img{
-    width: 50%;
+    width: 45%;
+    padding-left: 20%;
+}
+
+#sec3 div img{
+    width: 30%;
+}
+#sec3 div p{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cfb344;
+    text-align: right;
+
 }
