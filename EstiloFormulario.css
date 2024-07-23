@@ -1,0 +1,81 @@
+<style>
+#tipo-derecho-radios {
+    display: flex;
+    flex-direction: colum;
+}
+#tipo-derecho-radios label {
+    margin-bottom: 5px;
+}
+</style>
+/* Estilos generales */
+body{
+    background-color: #f5e6d3;/* Fondo crema */
+    color: #4a3c31 /* Texto en marrón oscuro */
+    font-family: Arial, sans-serif; 
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border: 2px solid #9a0000; /* Borde rojo */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    color: #6e0d25; /*Títulos en borgoña */
+    border-bottom: 2px solid #cfb344; /* Línea de dorada debajo de los títulos */ 
+}
+/* Estilos para los inputs */
+input[type="text"], input[type="email"], input[type"tel"], textarea {
+    border: 1px solid #cfb344; /* Borde dorado para los campos de entrada */
+    padding: 5px; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Estilos para los radio buttons */
+#tipo-derecho-radios {
+    display: flex;
+    flex-direction: column;
+}
+
+#tipo-derecho-radios label {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#tipo-derecho-radios input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+    background-color: #9a0000; /* Fondo rojo para el botón */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #6e0d25; /* Cambia a borgoña al pasar el mouse */
+}
+
+/* Estilos para la explicación */
+#explicacion {
+    background-color: #f5e6d3; /* Fondo crema para la explicación */
+    border-left: 4px solid #cfb344; /* Borde izquierdo dorado */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#explicacion p {
+    margin: 0;
+}
+
+#explicacion strong {
+    color: #9a0000; /* Texto en rojo para énfasis */
+}
