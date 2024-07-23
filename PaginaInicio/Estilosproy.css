@@ -65,7 +65,7 @@ main {
 
 .contpriniz {
     border: solid 8px #9b6745;
-    border-radius: 5px1;
+    border-radius: 5px;
     border-style: inset;
     grid-column-start: 1;
     grid-column-end: 2;
