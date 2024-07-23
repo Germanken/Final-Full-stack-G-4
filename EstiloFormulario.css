@@ -1,35 +1,130 @@
-<style>
-#tipo-derecho-radios {
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: auto;
+    object-position: center;
+    padding-left: 40%
+}
+
+header{
+    background-color: #040404;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34404a;
+}
+nav a{
+    text-decoration: none;
+    color: #cfb344;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150%;
+    padding: 5%;
+}
+
+body {
+    background-color: #040404;
+    color: #cfb344
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.Formulario{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#cfb344;
+}
+
+.Formulario h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#cfb344;
+}
+
+.Formulario2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#cfb344;
+}
+
+.Formulario2 h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#cfb344;
+}
+<style>#tipo-derecho-radios {
     display: flex;
     flex-direction: colum;
 }
+
 #tipo-derecho-radios label {
     margin-bottom: 5px;
-}
-</style>
-/* Estilos generales */
-body{
-    background-color: #f5e6d3;/* Fondo crema */
-    color: #4a3c31 /* Texto en marrón oscuro */
-    font-family: Arial, sans-serif; 
 }
 
 /* Estilos para el formulario */
 form {
-    background-color: #ffffff; /* Fondo blanco para el formulario */
-    border: 2px solid #9a0000; /* Borde rojo */
+    background-color: #040404;
+    /* Fondo blanco para el formulario */
+    border: 2px solid #34404a;
+    /* Borde rojo */
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    
 }
+
+.Formulario2 {
+    background-color: #040404;
+    /* Fondo blanco para el formulario */
+    border: 2px solid #34404a;
+    /* Borde rojo */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.Formulario2 label{
+    margin-left: 200px;
+}
+
+#tipo-derecho-radios{
+    margin-left: 10px;
+}
+.Formulario2 h2{
+    text-align: center;
+}
+
 h2 {
-    color: #6e0d25; /*Títulos en borgoña */
-    border-bottom: 2px solid #cfb344; /* Línea de dorada debajo de los títulos */ 
+    color: #6e0d25;
+    /*Títulos en borgoña */
+    border-bottom: 2px solid #cfb344;
+    /* Línea de dorada debajo de los títulos */
 }
+
 /* Estilos para los inputs */
-input[type="text"], input[type="email"], input[type"tel"], textarea {
-    border: 1px solid #cfb344; /* Borde dorado para los campos de entrada */
-    padding: 5px; 
+input[type="text"],
+input[type="email"],
+input[type"tel"],
+textarea {
+    border: 1px solid #cfb344;
+    /* Borde dorado para los campos de entrada */
+    padding: 5px;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -51,8 +146,10 @@ input[type="text"], input[type="email"], input[type"tel"], textarea {
 
 /* Estilos para el botón de envío */
 button[type="submit"] {
-    background-color: #9a0000; /* Fondo rojo para el botón */
-    color: #ffffff; /* Texto blanco */
+    background-color: #cfb344;
+    /* Fondo rojo para el botón */
+    color: #ffffff;
+    /* Texto blanco */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -60,13 +157,17 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #6e0d25; /* Cambia a borgoña al pasar el mouse */
+    background-color: #6e0d25;
+    /* Cambia a borgoña al pasar el mouse */
 }
 
 /* Estilos para la explicación */
 #explicacion {
-    background-color: #f5e6d3; /* Fondo crema para la explicación */
-    border-left: 4px solid #cfb344; /* Borde izquierdo dorado */
+    color: #ffffff;
+    background-color: #34404a;
+    /* Fondo crema para la explicación */
+    border-left: 4px solid #cfb344;
+    /* Borde izquierdo dorado */
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -77,5 +178,7 @@ button[type="submit"]:hover {
 }
 
 #explicacion strong {
-    color: #9a0000; /* Texto en rojo para énfasis */
+    color: #cfb344;
+    font-style: italic;
+    /* Texto en rojo para énfasis */
 }
