@@ -40,6 +40,9 @@
   <br><br>
   <div id="tipo-derecho-radios">
     <label>
+      <input type="radio" name="tipo-derecho" value="conciliación en derecho" onchange="mostrarExplicacion(this.value)"> Conciliación en derecho
+    </label>
+    <label>
       <input type="radio" name="tipo-derecho" value="civil" onchange="mostrarExplicacion(this.value)"> Derecho Civil
     </label>
     <label>
@@ -83,11 +86,14 @@
     const explicacionDiv = document.getElementById("explicacion");
 
     switch (valor) {
+      case "conciliación":
+        explicacionDiv.innerHTML = "<p><strong>Conciliación en derecho:</strong> El conflicto en las relaciones interpersonales, es connatural con la vida misma. Por ello Ius Populi utiliza y promueve los MASC, así los diferentes medios y jurisdicciones especiales que permiten que el conflicto no solamente no escale a uno de mayor identidad, sino que las relaciones no se destruyan en mayor grado, y a su vez se obtenga beneficio como menores costos, más ágil, igualmente confiables y con efectos de tránsito a cosa juzgada y mérito ejecutivo.</em></p>";
+        break;
       case "civil":
-        explicacionDiv.innerHTML = "<p><strong>Derecho Civil:</strong> Regula las relaciones entre personas físicas o jurídicas en asuntos no penales. <br><em>Ejemplo: Disputa sobre un contrato de compraventa.</em></p>";
+        explicacionDiv.innerHTML = "<p><strong>Derecho Civil:</strong> Nuestro equipo cuenta con litigantes expertos en disputas relativas a sus controversias patrimoniales en donde estén en discusión sus derechos particulares relativas a la persona a sus bienes, sus contratos, sucesiones, obligaciones y derechos.</em></p>";
         break;
       case "penal":
-        explicacionDiv.innerHTML = "<p><strong>Derecho Penal:</strong> Regula los delitos y las penas a aplicar. <br><em>Ejemplo: Acusación por robo.</em></p>";
+        explicacionDiv.innerHTML = "<p><strong>Derecho Penal:</strong> Nuestro equipo calificado de abogados expertos en derecho penal, brinda asesoría personalizada para cada caso presentado, garantizando la confidencialidad de la información suministrada. Realizamos un análisis detallado del caso y generamos un plan jurídico, si es denunciado o denunciante, con el fin único de defender los derechos de los usuarios, indistintamente de su condición ante la ley. <br><em>Ejemplo: Acusación por robo.</em></p>";
         break;
       case "laboral":
         explicacionDiv.innerHTML = "<p><strong>Derecho Laboral:</strong> Regula las relaciones entre empleadores y empleados. <br><em>Ejemplo: Disputa sobre el despido injustificado de un trabajador.</em></p>";
