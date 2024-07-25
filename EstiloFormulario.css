@@ -66,7 +66,8 @@ body {
     font-style: normal;
     color:#cfb344;
 }
-<style>#tipo-derecho-radios {
+
+#tipo-derecho-radios {
     display: flex;
     flex-direction: colum;
 }
