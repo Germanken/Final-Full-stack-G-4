@@ -217,11 +217,19 @@ main {
 .equipo{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 10%;
     margin-right: 20%;
-    max-width: 10%;
+    max-width: 100%;
     
+}
+.equipo .flex-item{
+    max-width: 30%;
+    margin-top: 20px;
+}
+.equipo h2{
+    margin: 2px auto;
 }
