@@ -76,12 +76,9 @@ body {
     margin-bottom: 5px;
 }
 
-/* Estilos para el formulario */
 form {
     background-color: #040404;
-    /* Fondo del formulario */
     border: 2px solid #34404a;
-    /* Borde */
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
@@ -92,9 +89,7 @@ form {
 
 .Formulario2 {
     background-color: #040404;
-    /* Fondo para el formulario */
     border: 2px solid #34404a;
-    /* Borde */
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
@@ -113,24 +108,20 @@ form {
 
 h2 {
     color: #6e0d25;
-    /*Títulos en borgoña */
     border-bottom: 2px solid #cfb344;
-    /* Línea de dorada debajo de los títulos */
 }
 
-/* Estilos para los inputs */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+
 textarea {
     border: 1px solid #cfb344;
-    /* Borde dorado para los campos de entrada */
     padding: 5px;
     margin-bottom: 10px;
     width: 100%;
 }
 
-/* Estilos para los radio buttons */
 #tipo-derecho-radios {
     display: flex;
     flex-direction: column;
@@ -145,33 +136,35 @@ textarea {
     margin-right: 5px;
 }
 
-/* Estilos para el botón de envío */
 button[type="submit"] {
     display: block;
-    margin-left: auto;
-    margin-right: 0;
+    width: 50%;
+    margin: 20px auto;
     background-color: #cfb344;
-    /* Fondo rojo para el botón */
-    color: #ffffff;
-    /* Texto blanco */
+    color:#040404;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30 px;
+    font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 button[type="submit"]:hover {
     background-color: #6e0d25;
-    /* Cambia al pasar el mouse */
+    color:#ffffff;
+    transform: scale(1.05);
 }
 
-/* Estilos para la explicación */
 #explicacion {
     color: #ffffff;
     background-color: #34404a;
-    /* Fondo para la explicación */
     border-left: 4px solid #cfb344;
-    /* Borde izquierdo */
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
