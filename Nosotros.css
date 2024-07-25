@@ -1,30 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    display: grid;
-    background-color: #9a0000;
+header{
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+.encabezado img {
+    width: auto;
+    justify-content: center;
+    padding-left: 35%;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34404a;
+
+}
+
+nav a {
+    text-decoration: none;
     color: #cfb344;
-    border: 3px solid #cfb344;
-    gap: 2px 2px;
-    align-content: center;
-    align-items: center;
-}
-img{
-    width: 100%;
-    height: 150px;
-    align-content: center;
-
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150%;
+    padding: 5%;
 }
 
-div{
+nav li a:hover {
+    background-color: #ffffff
+}
+
+body{
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+.contenedorgrid{
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-    gap: 2px 2px;
-    border: 3px solid goldenrod;
-    justify-content: left;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    justify-content: center;
+    padding: 10px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
 }
+
+.cont1izq{
+    color: #cfb344;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150%;
+    padding: 5%;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: #cfb344 solid 2px;
+}
+
+.cont1izq h1{
+    margin-top: 80px;
+}
+
+.cont1izq p{
+    margin-top: 80px;
+
+}
+
+.cont1der{
+    padding: 5%;
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: #cfb344 solid 2px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 55px;
+}
+
+#img1{
+    
+    border: #cfb344 solid 2px;
+    width: 93%;
+}
+
+#img2{
+    border: #cfb344 solid 2px;
+    width: 93%;
+    margin-top: 10px;
+
+}
+
+.cont2der{
+    color: #cfb344;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150%;
+    padding: 5%;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: #cfb344 solid 2px;
+    padding: 4%;
+}
+.cont2der h1{
+    margin-top: 60px;
+}
+
+.cont2der p{
+    margin-top: 100px;
+}
+
+.cont2izq{
+    padding: 5%;
+    text-align: center;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    border: #cfb344 solid 2px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+#img3{
+    
+    border: #cfb344 solid 2px;
+    width: 90%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 10px;
+}
+
+#img4{
+    border: #cfb344 solid 2px;
+    width: 90%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 10px;
+
+}
+
+
