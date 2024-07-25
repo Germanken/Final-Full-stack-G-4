@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(Imagenes/black_lozenge.png);
+
+}
+
+.encabezado img {
+    width: auto;
+    justify-content: center;
+    padding-left: 35%;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34404a;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #cfb344;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150%;
+    padding: 10%;
+}
+
+nav li a:hover {
+    background-color: #ffffff
+}
+
+body section {
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+body p {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cfb344;
+    text-align: justify;
+}
+
+body h2 {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #cfb344;
+
+}
+
+body h3 {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #cfb344;
+}
+
+.conciliacion {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#con1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#con1 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#con1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+}
+
+#con2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#con2 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#con2 h3 {
+    padding: 20px;
+}
+
+#con2 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+
+}
+
+#con3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#con3 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#con3 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+.dercivil {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#civ1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#civ1 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#civ1 h2 {
+    margin-left: 10px;
+}
+
+#civ1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+.derlabo {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#lab1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#lab1 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#lab1 h2 {
+    margin-left: 10px;
+}
+
+#lab1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+.derpenal {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#penal1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#penal1 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#penal1 h2 {
+    margin-left: 10px;
+}
+
+#penal1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+.dercon {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#const1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#const1 p {
+    margin-left: 20px;
+    width: 30%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#const1 h2 {
+    margin-left: 10px;
+}
+
+#const1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+.derprop {
+    border: 8px solid #cfb344;
+    border-style: inset;
+}
+
+#prophor1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#hor1{
+    margin-left: 20px;
+    width: 30%;
+margin-top: 90px;
+    
+}
+#hor2 {
+    margin-left: 800px;
+    width: 30%;
+    margin-bottom: 20px;
+    
+}
+#prophor1 h2 {
+    margin-left: 10px;
+}
+
+#prophor1 img {
+    width: 20%;
+    border: 3px solid #cfb344;
+    border-style: inset;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
