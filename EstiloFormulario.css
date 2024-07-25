@@ -9,11 +9,11 @@
 .logo img {
     width: auto;
     object-position: center;
-    padding-left: 40%
+    padding-left: 32%;
 }
 
 header{
-    background-color: #040404;
+    background-image:url(Imagenes/black_lozenge.png)
 }
 
 nav li {
@@ -30,11 +30,11 @@ nav a{
     font-weight: 700;
     font-style: italic;
     font-size: 150%;
-    padding: 5%;
+    margin-left: 220px;
 }
 
 body {
-    background-color: #040404;
+    background-image:url(Imagenes/black_lozenge.png);
     color: #cfb344;
     font-family: "Arsenal SC", sans-serif;
 }
