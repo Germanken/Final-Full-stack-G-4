@@ -35,7 +35,7 @@ nav a{
 
 body {
     background-color: #040404;
-    color: #cfb344
+    color: #cfb344;
     font-family: "Arsenal SC", sans-serif;
 }
 
@@ -78,9 +78,9 @@ body {
 /* Estilos para el formulario */
 form {
     background-color: #040404;
-    /* Fondo blanco para el formulario */
+    /* Fondo del formulario */
     border: 2px solid #34404a;
-    /* Borde rojo */
+    /* Borde */
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
@@ -91,9 +91,9 @@ form {
 
 .Formulario2 {
     background-color: #040404;
-    /* Fondo blanco para el formulario */
+    /* Fondo para el formulario */
     border: 2px solid #34404a;
-    /* Borde rojo */
+    /* Borde */
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
@@ -120,7 +120,7 @@ h2 {
 /* Estilos para los inputs */
 input[type="text"],
 input[type="email"],
-input[type"tel"],
+input[type="tel"],
 textarea {
     border: 1px solid #cfb344;
     /* Borde dorado para los campos de entrada */
@@ -146,6 +146,9 @@ textarea {
 
 /* Estilos para el botón de envío */
 button[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
     background-color: #cfb344;
     /* Fondo rojo para el botón */
     color: #ffffff;
@@ -158,16 +161,16 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #6e0d25;
-    /* Cambia a borgoña al pasar el mouse */
+    /* Cambia al pasar el mouse */
 }
 
 /* Estilos para la explicación */
 #explicacion {
     color: #ffffff;
     background-color: #34404a;
-    /* Fondo crema para la explicación */
+    /* Fondo para la explicación */
     border-left: 4px solid #cfb344;
-    /* Borde izquierdo dorado */
+    /* Borde izquierdo */
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -180,9 +183,5 @@ button[type="submit"]:hover {
 #explicacion strong {
     color: #cfb344;
     font-style: italic;
-    /* Texto en rojo para énfasis */
+    /* Texto para énfasis */
 }
-<<<<<<< HEAD
-</style>
-=======
->>>>>>> 23d4afdc92d85ce3d8b4f15fc037fabb57d6541c
