@@ -162,7 +162,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #6e0d25;
+    background-color:#cfb344;
     color:#ffffff;
     transform: scale(1.05);
 }
@@ -181,5 +181,6 @@ button[type="submit"]:hover {
 }
 
 #explicacion strong {
+    font-size: 1.2em;
     color: #cfb344;
     font-style: italic;}
