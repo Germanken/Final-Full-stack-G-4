@@ -121,6 +121,11 @@ textarea {
     margin-bottom: 10px;
     width: 100%;
 }
+#caso::placeholder{
+    content: "En un máximo de 400 palabras cuéntanos los aspectos más relevantes";
+    color: #cfb344; 
+    font-family: "Arsenal SC", sans-serif;
+}
 
 #tipo-derecho-radios {
     display: flex;
@@ -176,6 +181,4 @@ button[type="submit"]:hover {
 
 #explicacion strong {
     color: #cfb344;
-    font-style: italic;
-    /* Texto para énfasis */
-}
+    font-style: italic;}

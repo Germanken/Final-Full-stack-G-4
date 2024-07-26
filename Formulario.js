@@ -23,3 +23,4 @@ function mostrarExplicacion(valor) {
       default:
     }
   }
+  
