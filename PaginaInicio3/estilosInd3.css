@@ -15,7 +15,7 @@ header {
 .encabezado img {
     width: auto;
     justify-content: center;
-    padding-left: 35%;
+    padding-left: 30%;
 }
 
 nav li {
@@ -30,15 +30,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #cfb344;
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 150%;
-    padding: 10%;
+    padding: 8%;
+    margin-left: 50px;
 }
 
 nav li a:hover {
     background-color: #ffffff
+}
+
+body {
+    background-image: url(Imagenes/black_lozenge.png);
 }
 
 main {
@@ -50,24 +55,24 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
-    padding: 5vh;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 
 #textoprin {
-    width: 780px;
+    width: 600px;
     height: auto;
     border: 6px solid #cfb344;
     border-radius: 1px;
     border-style: solid;
-    padding: 100px;
+    padding: 40px;
     margin-left: 0%;
     background-color: #34404a;
 }
 
 #imgflex img {
-    width: 800px;
+    width: 600px;
     height: auto;
     border: 6px solid #cfb344;
     border-radius: 1px;
@@ -77,29 +82,30 @@ main {
 }
 
 #textoprin h2 {
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 600;
-    font-style: italic;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #cfb344;
-    font-size: xx-large;
+    font-size: 2em;
+    text-align: center;
 }
 
 #textoprin p {
     margin: 30px;
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
     font-style: normal;
     color: #cfb344;
-    font-size: 140%;
-    text-align: right;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 .frase1 {
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
     font-style: oblique;
     color: #cfb344;
-    font-size: 200%;
+    font-size: 2em;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -116,8 +122,8 @@ main {
 }
 
 .imgserv {
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 60%;
     object-fit: cover;
     border: 6px solid #cfb344;
     border-radius: 1px;
@@ -125,53 +131,51 @@ main {
 
 }
 
+.flex-item1 {
+    background-color: #34404a;
+    border: 6px solid #cfb344;
+    border-radius: 1px;
+    border-style: inset;
+}
+
 .flexservicios h2 {
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 600;
-    font-style: oblique;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #cfb344;
-    font-size: 200%;
-    padding: 10px;
-    margin-top: 120px;
-    margin-left: 40px;
+    font-size: 1.8em;
+    margin: 30px;
 }
 
 .listaserv {
     list-style-type: none;
-    margin-left: 50px;
-    margin-right: 50px;
-
-
-
+    margin: 50px;
+    text-align: justify;
 }
 
 .listaserv a {
     text-decoration: none;
     color: #cfb344;
-    font-family: "Arsenal SC", sans-serif;
+    font-family: "Kanit", sans-serif;
     font-weight: 400;
-    font-style: italic;
-    font-size: 150%;
-
-
+    font-style: oblique;
+    font-size: 1.5em;
 }
 
 .listaserv a:hover {
-    background-color: #ffffff
+    color: #ffffff;
+    opacity: 0.5;
+    transition: 0.3s;
+    text-transform:uppercase;
 }
 
-.flex-item {
-    border: 2px inset #cfb344;
-    background-color: #34404a;
-
-}
 
 .textmed p {
-    font-family: "Arsenal SC", sans-serif;
+    font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     color: #cfb344;
-    font-size: 140%;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 80px;
     margin-left: 250px;
@@ -187,35 +191,36 @@ main {
     padding: 2vw;
     text-align: justify;
     font-size: 1vw;
-    
+
 }
 
 .talentoh img {
     width: 80%;
     height: auto;
-    object-fit: cover;  
+    object-fit: cover;
     border: 6px solid #cfb344;
     border-radius: 1px;
     border-style: inset;
 }
 
-.talentoh h3{
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+.talentoh h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #cfb344;
     font-size: 140%;
 }
-.talentoh p{
-    font-family: "Arsenal SC", sans-serif;
+
+.talentoh p {
+    font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     color: #cfb344;
     font-size: 100%;
     margin-right: 200px;
 }
 
-.equipo{
+.equipo {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -225,12 +230,14 @@ main {
     margin-left: 10%;
     margin-right: 20%;
     max-width: 100%;
-    
+
 }
-.equipo .flex-item{
+
+.equipo .flex-item {
     max-width: 30%;
     margin-top: 20px;
 }
-.equipo h2{
+
+.equipo h2 {
     margin: 2px auto;
 }
