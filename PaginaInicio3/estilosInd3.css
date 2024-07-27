@@ -114,28 +114,23 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+   
 
 }
 
 .imgserv {
-    width: 40%;
-    height: 60%;
-    object-fit: cover;
+    width:600px;
+    height: 100%;
     border: 6px solid #cfb344;
     border-radius: 1px;
     border-style: inset;
-
-}
+    }
 
 .flex-item1 {
-    background-color: #34404a;
-    border: 6px solid #cfb344;
-    border-radius: 1px;
-    border-style: inset;
+border: 6px #cfb344 inset;
+width: 30%;
+margin-left: 20px;
+background-color: #34404a;
 }
 
 .flexservicios h2 {
@@ -144,12 +139,12 @@ main {
     font-style: normal;
     color: #cfb344;
     font-size: 1.8em;
-    margin: 30px;
+    margin-left: 30px;
+    
 }
 
 .listaserv {
     list-style-type: none;
-    margin: 50px;
     text-align: justify;
 }
 
@@ -157,9 +152,10 @@ main {
     text-decoration: none;
     color: #cfb344;
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: oblique;
     font-size: 1.5em;
+    margin-left: 30px;
 }
 
 .listaserv a:hover {
@@ -169,7 +165,23 @@ main {
     text-transform:uppercase;
 }
 
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+   
+}
 
+.servicios a{
+    text-decoration: none;
+    color: #cfb344;
+    border: #cfb344 3px solid;
+    background-color: #34404a;
+}
 .textmed p {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
