@@ -285,7 +285,7 @@ h2 {
 .partefin {
     display: flex;
     justify-content: center;
-    margin-bottom: 180px;
+    margin-bottom: 250px;
 }
 
 .partefin iframe{
@@ -294,8 +294,13 @@ h2 {
     height: 150%;
     
 }
-.partefin videos{
-    margin-left: 20px;
+.partefin p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em;
+    color: #cfb344;
+    text-align: center;
 }
 
 footer {
