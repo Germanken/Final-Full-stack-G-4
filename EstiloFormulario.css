@@ -183,4 +183,75 @@ button[type="submit"]:hover {
 #explicacion strong {
     font-size: 1.2em;
     color: #cfb344;
-    font-style: italic;}
+    font-style: italic;
+}
+
+footer {
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+.contfooter {
+    width: 100%;
+    padding: 50px 30px 20px;
+}
+
+.redsocial {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.redsocial a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #cfb344;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.redsocial a i {
+    font-size: 2em;
+    color: #34404a;
+    opacity: 0.9;
+}
+
+.redsocial a:hover {
+    background-image: url(Imagenes/black_lozenge.png);
+    transition: 0.5s;
+}
+
+.footernav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footernav li a {
+    color: #cfb344;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    opacity: 0.4;
+    transition: 0.5s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+}
+
+.footernav li a:hover {
+    opacity: 1;
+}
+
+.fondofooter {
+    margin-bottom: 20px;
+}
+
+.fondofooter p {
+    text-align: center;
+    padding: 20px;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+}
