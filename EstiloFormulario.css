@@ -8,9 +8,12 @@
 }
 
 .logo img {
-    width: auto;
-    object-position: center;
-    padding-left: 32%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-left: 0%;
+    display: block;
+    margin: 0 auto;
 }
 
 header{
@@ -20,18 +23,26 @@ header{
 nav li {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     overflow: hidden;
     background-color: #34404a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 nav a{
     text-decoration: none;
     color: #cfb344;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 150%;
+    font-size: 1.2em;
     margin-left: 220px;
+    margin: 10px;
+    padding-right: 3%;
+    padding-left: 3%;
+   
 }
 
 body {
@@ -59,6 +70,8 @@ body {
     font-weight: 400;
     font-style: normal;
     color:#cfb344;
+    width: 90%;
+    max-width: 600px;
 }
 
 .Formulario2 h2{
@@ -81,6 +94,7 @@ form {
     background-color: #040404;
     border: 2px solid #34404a;
     padding: 20px;
+    width: 90%;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 20px;
@@ -95,6 +109,7 @@ form {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 20px;
+    text-align: justify;
 }
 .Formulario2 label{
     margin-left: 200px;
@@ -174,6 +189,7 @@ button[type="submit"]:hover {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 #explicacion p {
