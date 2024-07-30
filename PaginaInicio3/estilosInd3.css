@@ -13,10 +13,16 @@ header {
 }
 
 .encabezado img {
-    width: auto;
-    justify-content: center;
-    padding-left: 40%;
+    width: 100%;
+    max-width: 300px;
+    /* ajusta según necesites */
+    height: auto;
+    padding-left: 0;
+    display: block;
+    margin: 0 auto;
 }
+
+
 
 nav li {
     list-style-type: none;
@@ -24,7 +30,9 @@ nav li {
     padding: 0;
     overflow: hidden;
     background-color: #34404a;
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -32,10 +40,11 @@ nav a {
     color: #cfb344;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-style: normal;
-    font-size: 150%;
-    padding: 8%;
-    margin-left: 50px;
+    font-style: italic;
+    font-size: 180%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-left: 2%;
 }
 
 nav li a:hover {
@@ -67,11 +76,11 @@ main {
     border-radius: 1px;
     border-style: solid;
     padding: 40px;
-    margin-left: 0%;
+    margin-left: 20px;
     background-color: #34404a;
 }
 
-#imgflex img {
+#imagppal {
     width: 600px;
     height: auto;
     border: 6px solid #cfb344;
@@ -79,6 +88,8 @@ main {
     border-style: solid;
     object-fit: cover;
     margin-left: 20px;
+
+
 }
 
 #textoprin h2 {
@@ -131,13 +142,14 @@ h2 {
 .servicios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-self: center;
-    align-self: center;
     font-family: "Kanit", sans-serif;
     font-weight: 300;
-    width: 80%;
+    width: 60%;
+    height: 100%;
+    margin: auto;
     text-align: center;
-    margin-left: 200px;
+    justify-content: center;
+
 
 }
 
@@ -146,7 +158,8 @@ h2 {
     color: #cfb344;
     border: #cfb344 3px solid;
     background-color: #34404a;
-    font-size: 30px;
+    font-size: 1.5em;
+    align-items: center;
 
 }
 
@@ -167,6 +180,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 5%;
+    
 }
 
 .textmed p {
@@ -181,7 +195,8 @@ h2 {
     border-radius: 1px;
     margin-left: 30px;
     padding: 5%;
-}
+    background-color: #34404a;
+    }
 
 .imgserv {
     width: 600px;
@@ -231,14 +246,9 @@ h2 {
 
 .equipo {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 10%;
-    margin-right: 20%;
-    max-width: 100%;
+
+
 
 }
 
@@ -258,43 +268,98 @@ h2 {
     color: #cfb344;
     text-align: left;
     margin-right: 10px;
+    margin-left: 5px;
 }
 
 .equipo .flex-item {
-    max-width: 40%;
-    margin-top: 20px;
-    border: solid #cfb344;
-    padding: 2%;
-    margin-left: 8%;
+    width: 20%;
+    max-height: 10%;
+    margin-left: 2%;
     display: flex;
+    flex-direction: column;
+    border: #cfb344 solid;
+    background-color: #34404a;
+
 
 }
 
-.equipo #imavima {
-    width: 30%;
+#imavima {
+    max-width: 10vh;
+    max-height: 5%;
+    object-fit: fill;
+    border: #cfb344 solid;
+
+
+}
+
+#imalisa {
+    max-width:10vh;
+    max-height: 5%;
     border: #cfb344 solid;
 
 }
 
-.equipo #imalisa {
-    width: 30%;
-    border: #cfb344 solid;
-
+@media only screen and 
+(max-width: 650px) {
+    #imavima {
+        width: 0%;
+    }
+    #imalisa{
+        width: 0%;
+    }
 }
+
+.testi {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%
+}
+
+.testi img {
+    width: 40%;
+    height: fit-content;
+    align-self: center;
+    margin-left: 33%;
+    border: #cfb344 1px solid;
+    opacity: 0.8;
+}
+
+.testi-flex {
+    width: 20%;
+    margin-right: 0;
+    padding: 0%;
+    border: #cfb344 2px solid;
+    background-color: #34404a;
+    margin-left: 2vh;
+}
+
+.testi p {
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: 1em;
+    color: #cfb344;
+    text-align: center;
+}
+
 
 .partefin {
     display: flex;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
 }
 
-.partefin iframe{
+.partefin iframe {
     border: #cfb344 solid 2px;
     margin-right: 20px;
     height: 150%;
-    
+
 }
-.partefin p{
+
+.partefin p {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
