@@ -7,17 +7,17 @@ const pagHome= (req, res) => {
 
 // servir pagina de contacto
 const pagContacto= (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/public/contacto.html'))
+  res.sendFile(path.resolve(__dirname + '../public/contacto.html'))
 };
 
 // servir pagina de servicios
 const pagServicios= (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/public/servicios.html'))
+  res.sendFile(path.resolve(__dirname + '../public/servicios.html'))
 };
 
 // servir pagina de nosotros
 const pagNosotros= (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/public/nosotros.html'))
+  res.sendFile(path.resolve(__dirname + '../public/nosotros.html'))
 };
 
 // servir pagina de error
